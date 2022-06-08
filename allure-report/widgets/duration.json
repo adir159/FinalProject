@@ -1,0 +1,131 @@
+[ {
+  "uid" : "cdf03b22e7b911e2",
+  "name" : "Test04 - Verify Deletion of user",
+  "time" : {
+    "start" : 1653928344246,
+    "stop" : 1653928345825,
+    "duration" : 1579
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "502cdf4d5127a5b9",
+  "name" : "Test03 - Verify New User",
+  "time" : {
+    "start" : 1653928341296,
+    "stop" : 1653928343973,
+    "duration" : 2677
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bae8ca06241bcfb3",
+  "name" : "Test03: update existing team and verify",
+  "time" : {
+    "start" : 1653931078306,
+    "stop" : 1653931078561,
+    "duration" : 255
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e9da301553304e5d",
+  "name" : "Test05 - Verify Main Guide lines",
+  "time" : {
+    "start" : 1653928346129,
+    "stop" : 1653928346561,
+    "duration" : 432
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4fc7a3439a58279c",
+  "name" : "Test07 - Search Users",
+  "time" : {
+    "start" : 1653928366521,
+    "stop" : 1653928380213,
+    "duration" : 13692
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c3b9329eb608cf35",
+  "name" : "Test01 - Verify Header",
+  "time" : {
+    "start" : 1653928336069,
+    "stop" : 1653928339042,
+    "duration" : 2973
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f1d37d5379f23340",
+  "name" : "Test02: Add a team and verify",
+  "time" : {
+    "start" : 1653931078036,
+    "stop" : 1653931078283,
+    "duration" : 247
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "19ce6305d188709d",
+  "name" : "Test02 - Verify Default Users",
+  "time" : {
+    "start" : 1653928339408,
+    "stop" : 1653928340863,
+    "duration" : 1455
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d45c14b7b66cc3c0",
+  "name" : "Test01: Get team from grafana",
+  "time" : {
+    "start" : 1653931072641,
+    "stop" : 1653931077960,
+    "duration" : 5319
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8e3adb5567cd2c0f",
+  "name" : "Test07 - Search Users",
+  "time" : {
+    "start" : 1653928348921,
+    "stop" : 1653928362170,
+    "duration" : 13249
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "af5cc15dde5598dc",
+  "name" : "Test06 - Verify Avatar Icon",
+  "time" : {
+    "start" : 1653928346785,
+    "stop" : 1653928348597,
+    "duration" : 1812
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b05f50449eb5345b",
+  "name" : "Test04: Delete existing team and verify",
+  "time" : {
+    "start" : 1653931078571,
+    "stop" : 1653931078802,
+    "duration" : 231
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4dec3e6c74b7acca",
+  "name" : "Test07 - Search Users",
+  "time" : {
+    "start" : 1653928362627,
+    "stop" : 1653928366232,
+    "duration" : 3605
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

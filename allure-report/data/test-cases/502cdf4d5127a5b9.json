@@ -1,0 +1,335 @@
+{
+  "uid" : "502cdf4d5127a5b9",
+  "name" : "Test03 - Verify New User",
+  "fullName" : "sanity.grafanaWeb.test03_VerifyNewUser",
+  "historyId" : "7c12180e373851d14e8b0b34765b8f4b",
+  "time" : {
+    "start" : 1653928341296,
+    "stop" : 1653928343973,
+    "duration" : 2677
+  },
+  "description" : "This test verifies a new user has been added",
+  "descriptionHtml" : "<p>This test verifies a new user has been added</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "StartSession",
+    "time" : {
+      "start" : 1653928327810,
+      "stop" : 1653928335586,
+      "duration" : 7776
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "BeforeMethod",
+    "time" : {
+      "start" : 1653928341275,
+      "stop" : 1653928341287,
+      "duration" : 12
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "This test verifies a new user has been added",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Mouse hover elements",
+      "time" : {
+        "start" : 1653928341510,
+        "stop" : 1653928342094,
+        "duration" : 584
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elem1",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (36397fbfedf0df2038d193db68564794)] -> xpath: //div[@class='sidemenu-item dropdown'][7]]"
+      }, {
+        "name" : "elem2",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (36397fbfedf0df2038d193db68564794)] -> xpath: //a[@href='/admin/users']]"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Business flow: CreateNewUser",
+      "time" : {
+        "start" : 1653928342094,
+        "stop" : 1653928343643,
+        "duration" : 1549
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click on element",
+        "time" : {
+          "start" : 1653928342165,
+          "stop" : 1653928342629,
+          "duration" : 464
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (36397fbfedf0df2038d193db68564794)] -> class name: css-u6ysb0-button]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Update text element",
+        "time" : {
+          "start" : 1653928342693,
+          "stop" : 1653928342841,
+          "duration" : 148
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (36397fbfedf0df2038d193db68564794)] -> xpath: //input[@class='css-1bjepp-input-input']]"
+        }, {
+          "name" : "text",
+          "value" : "Adir"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Update text element",
+        "time" : {
+          "start" : 1653928342873,
+          "stop" : 1653928343058,
+          "duration" : 185
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (36397fbfedf0df2038d193db68564794)] -> xpath: //input[@name='email']]"
+        }, {
+          "name" : "text",
+          "value" : "adir@gmail.com"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Update text element",
+        "time" : {
+          "start" : 1653928343084,
+          "stop" : 1653928343223,
+          "duration" : 139
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (36397fbfedf0df2038d193db68564794)] -> xpath: //input[@name='login']]"
+        }, {
+          "name" : "text",
+          "value" : "Adir1234"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Update text element",
+        "time" : {
+          "start" : 1653928343253,
+          "stop" : 1653928343397,
+          "duration" : 144
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (36397fbfedf0df2038d193db68564794)] -> xpath: //input[@type='password']]"
+        }, {
+          "name" : "text",
+          "value" : "adirbeg159"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Click on element",
+        "time" : {
+          "start" : 1653928343426,
+          "stop" : 1653928343643,
+          "duration" : 217
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (36397fbfedf0df2038d193db68564794)] -> xpath: //button[@type='submit']]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "Adir"
+      }, {
+        "name" : "user",
+        "value" : "Adir1234"
+      }, {
+        "name" : "email",
+        "value" : "adir@gmail.com"
+      }, {
+        "name" : "password",
+        "value" : "adirbeg159"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 6,
+      "hasContent" : true
+    }, {
+      "name" : "Verify number of elements",
+      "time" : {
+        "start" : 1653928343806,
+        "stop" : 1653928343899,
+        "duration" : 93
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elem",
+        "value" : "[[[ChromeDriver: chrome on WINDOWS (36397fbfedf0df2038d193db68564794)] -> xpath: //table[@class='filter-table form-inline filter-table--hover']/tbody/tr]]"
+      }, {
+        "name" : "Expected",
+        "value" : "2"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 9,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "AfterMethod",
+    "time" : {
+      "start" : 1653928343978,
+      "stop" : 1653928344227,
+      "duration" : 249
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "CloseSession",
+    "time" : {
+      "start" : 1653928380847,
+      "stop" : 1653928381596,
+      "duration" : 749
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.grafanaWeb"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.grafanaWeb"
+  }, {
+    "name" : "testMethod",
+    "value" : "test03_VerifyNewUser"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.grafanaWeb"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-2UU0DCVI"
+  }, {
+    "name" : "thread",
+    "value" : "4352@LAPTOP-2UU0DCVI.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "web"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "502cdf4d5127a5b9.json",
+  "parameterValues" : [ "web" ]
+}

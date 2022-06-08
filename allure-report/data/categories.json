@@ -1,0 +1,51 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Error comparing Image File:FindFailed: C:\\\\automation\\\\FinalProject\\\\ImageRepository\\\\GrafanaAvatar.png: (52x44) in R[0,0 1920x1080]@S(0)\n  Line 2287, in file Region.java\n",
+      "children" : [ {
+        "name" : "Test06 - Verify Avatar Icon",
+        "uid" : "af5cc15dde5598dc",
+        "parentUid" : "b7c78ebc0f3aeb4f7dcf02622c5eb70e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1653928346785,
+          "stop" : 1653928348597,
+          "duration" : 1812
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "b7c78ebc0f3aeb4f7dcf02622c5eb70e"
+    }, {
+      "name" : "did not expect to find [true] but found [false]",
+      "children" : [ {
+        "name" : "Test07 - Search Users",
+        "uid" : "4fc7a3439a58279c",
+        "parentUid" : "d7f4d249d0e9fec364fcbc7a311f0204",
+        "status" : "failed",
+        "time" : {
+          "start" : 1653928366521,
+          "stop" : 1653928380213,
+          "duration" : 13692
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web", "david", "exists" ]
+      } ],
+      "uid" : "d7f4d249d0e9fec364fcbc7a311f0204"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

@@ -1,0 +1,326 @@
+{
+  "uid" : "bae8ca06241bcfb3",
+  "name" : "Test03: update existing team and verify",
+  "fullName" : "sanity.GrafanaAPI.test03_updateTeamAndVerify",
+  "historyId" : "f27c5b62cb4d50b38c6b86dffb515726",
+  "time" : {
+    "start" : 1653931078306,
+    "stop" : 1653931078561,
+    "duration" : 255
+  },
+  "description" : "update a team in grafana and verify it",
+  "descriptionHtml" : "<p>update a team in grafana and verify it</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "StartSession",
+    "time" : {
+      "start" : 1653931066434,
+      "stop" : 1653931072253,
+      "duration" : 5819
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "BeforeMethod",
+    "time" : {
+      "start" : 1653931078299,
+      "stop" : 1653931078299,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "update a team in grafana and verify it",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Business flow: Get team property",
+      "time" : {
+        "start" : 1653931078307,
+        "stop" : 1653931078377,
+        "duration" : 70
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get data from server",
+        "time" : {
+          "start" : 1653931078307,
+          "stop" : 1653931078359,
+          "duration" : 52
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "paramValues",
+          "value" : "/api/teams/search"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Extract value from JSON format",
+        "time" : {
+          "start" : 1653931078359,
+          "stop" : 1653931078377,
+          "duration" : 18
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "response",
+          "value" : "io.restassured.internal.RestAssuredResponseImpl@31183ee2"
+        }, {
+          "name" : "path",
+          "value" : "teams[1].id"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "jPath",
+        "value" : "teams[1].id"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "Business flow: Create existing team in grafana",
+      "time" : {
+        "start" : 1653931078377,
+        "stop" : 1653931078428,
+        "duration" : 51
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Update data in server",
+        "time" : {
+          "start" : 1653931078377,
+          "stop" : 1653931078428,
+          "duration" : 51
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "params",
+          "value" : "{\"name\":\"ZWWTeam\",\"email\":\"z@team.com\"}"
+        }, {
+          "name" : "resource",
+          "value" : "/api/teams/17"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "ZWWTeam"
+      }, {
+        "name" : "email",
+        "value" : "z@team.com"
+      }, {
+        "name" : "id",
+        "value" : "17"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "Business flow: Get team property",
+      "time" : {
+        "start" : 1653931078428,
+        "stop" : 1653931078560,
+        "duration" : 132
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get data from server",
+        "time" : {
+          "start" : 1653931078428,
+          "stop" : 1653931078487,
+          "duration" : 59
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "paramValues",
+          "value" : "/api/teams/search"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Extract value from JSON format",
+        "time" : {
+          "start" : 1653931078488,
+          "stop" : 1653931078560,
+          "duration" : 72
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "response",
+          "value" : "io.restassured.internal.RestAssuredResponseImpl@78743dd8"
+        }, {
+          "name" : "path",
+          "value" : "teams[1].name"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "jPath",
+        "value" : "teams[1].name"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "Verify text with text",
+      "time" : {
+        "start" : 1653931078560,
+        "stop" : 1653931078560,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "ZWWTeam"
+      }, {
+        "name" : "expected",
+        "value" : "ZWWTeam"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 9,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "AfterMethod",
+    "time" : {
+      "start" : 1653931078563,
+      "stop" : 1653931078563,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "CloseSession",
+    "time" : {
+      "start" : 1653931078814,
+      "stop" : 1653931078820,
+      "duration" : 6
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.GrafanaAPI"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.GrafanaAPI"
+  }, {
+    "name" : "testMethod",
+    "value" : "test03_updateTeamAndVerify"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.GrafanaAPI"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-2UU0DCVI"
+  }, {
+    "name" : "thread",
+    "value" : "15604@LAPTOP-2UU0DCVI.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "api"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bae8ca06241bcfb3.json",
+  "parameterValues" : [ "api" ]
+}

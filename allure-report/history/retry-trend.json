@@ -1,0 +1,9 @@
+[ {
+  "buildOrder" : 1,
+  "reportUrl" : "http://localhost:9090/job/Sanity%20test%20API/1/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 13,
+    "retry" : 0
+  }
+} ]

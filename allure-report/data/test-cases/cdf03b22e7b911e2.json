@@ -1,0 +1,257 @@
+{
+  "uid" : "cdf03b22e7b911e2",
+  "name" : "Test04 - Verify Deletion of user",
+  "fullName" : "sanity.grafanaWeb.test04_VerifyUserDeletion",
+  "historyId" : "cc3141092267fa1ce37eac698032a012",
+  "time" : {
+    "start" : 1653928344246,
+    "stop" : 1653928345825,
+    "duration" : 1579
+  },
+  "description" : "This test verifies the deletion of a user",
+  "descriptionHtml" : "<p>This test verifies the deletion of a user</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "StartSession",
+    "time" : {
+      "start" : 1653928327810,
+      "stop" : 1653928335586,
+      "duration" : 7776
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "BeforeMethod",
+    "time" : {
+      "start" : 1653928344230,
+      "stop" : 1653928344242,
+      "duration" : 12
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "This test verifies the deletion of a user",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Mouse hover elements",
+      "time" : {
+        "start" : 1653928344380,
+        "stop" : 1653928344736,
+        "duration" : 356
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elem1",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (36397fbfedf0df2038d193db68564794)] -> xpath: //div[@class='sidemenu-item dropdown'][7]]"
+      }, {
+        "name" : "elem2",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (36397fbfedf0df2038d193db68564794)] -> xpath: //a[@href='/admin/users']]"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Business flow: DeleteLastUser",
+      "time" : {
+        "start" : 1653928344736,
+        "stop" : 1653928345563,
+        "duration" : 827
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click on element",
+        "time" : {
+          "start" : 1653928344823,
+          "stop" : 1653928345024,
+          "duration" : 201
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (36397fbfedf0df2038d193db68564794)] -> xpath: //table[@class='filter-table form-inline filter-table--hover']/tbody/tr]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Click on element",
+        "time" : {
+          "start" : 1653928345161,
+          "stop" : 1653928345354,
+          "duration" : 193
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (36397fbfedf0df2038d193db68564794)] -> xpath: (//button[@class='css-1scyk9l-button']/span/span)[1]]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Click on element",
+        "time" : {
+          "start" : 1653928345391,
+          "stop" : 1653928345563,
+          "duration" : 172
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (36397fbfedf0df2038d193db68564794)] -> xpath: (//div[@class='css-1nrg97p'])[1]]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    }, {
+      "name" : "Verify number of elements",
+      "time" : {
+        "start" : 1653928345625,
+        "stop" : 1653928345713,
+        "duration" : 88
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elem",
+        "value" : "[[[ChromeDriver: chrome on WINDOWS (36397fbfedf0df2038d193db68564794)] -> xpath: //table[@class='filter-table form-inline filter-table--hover']/tbody/tr], [[ChromeDriver: chrome on WINDOWS (36397fbfedf0df2038d193db68564794)] -> xpath: //table[@class='filter-table form-inline filter-table--hover']/tbody/tr]]"
+      }, {
+        "name" : "Expected",
+        "value" : "1"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "AfterMethod",
+    "time" : {
+      "start" : 1653928345827,
+      "stop" : 1653928346109,
+      "duration" : 282
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "CloseSession",
+    "time" : {
+      "start" : 1653928380847,
+      "stop" : 1653928381596,
+      "duration" : 749
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.grafanaWeb"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.grafanaWeb"
+  }, {
+    "name" : "testMethod",
+    "value" : "test04_VerifyUserDeletion"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.grafanaWeb"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-2UU0DCVI"
+  }, {
+    "name" : "thread",
+    "value" : "4352@LAPTOP-2UU0DCVI.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "web"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cdf03b22e7b911e2.json",
+  "parameterValues" : [ "web" ]
+}
